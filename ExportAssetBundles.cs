@@ -32,7 +32,13 @@
 		static void benis () {
 			// Bring up save panel
 			string path = EditorUtility.SaveFilePanel ("Save Resource", "", "New Resource", "unity3d");
-            var levels = new string[] { "Assets/gkml_load_point.unity" };
+			
+			// Previously here:
+            // var levels = new string[] { "Assets/gkml_load_point.unity" };
+			
+			// In fact, this string must match the name of the scene:
+			var levels = new string[] { "Assets/test.unity" };
+			
 			if (path.Length != 0) {
 				// Build the resource file from the active selection.
 				BuildPipeline.BuildStreamedSceneAssetBundle(levels, path, BuildTarget.StandaloneWindows, BuildOptions.UncompressedAssetBundle );
