@@ -30,4 +30,6 @@ something something... will finish writing this later
 
 ## Notes
 * If you delete or move the game's splash screen from the `External` folder, it simply won't show up! However, the game won't load if the `External\SplashScreens` is deleted entirely (at least for me).
-* I have not yet found a way to alter the scene name fom "test".
+* I have not yet found a way to rename the scene name fom "test".
+* It is very easy to clip through objects if your kart is at an angle to the surface.
+* You can teleport to the top of the full pipe from within, by driving up the side of the pipe.
