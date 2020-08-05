@@ -2,7 +2,7 @@
 
 This is a loose guide to get you started with Garfield Kart mapping by modifying an existing project. It contains details on how to import objects and textures from Blender to Unity, and finally compile them for use within the Garfield Kart game.
 
-![abtest](/abtest project.png)
+![abtest](image.png)
 
 ## 0 Requirements
 * Computer
